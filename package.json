@@ -1,0 +1,23 @@
+{
+  "name": "base-apparel-coming-soon-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "TAILWIND",
+    "JAVASCRIPT",
+    "LANDING",
+    "PAGE",
+    "HERO"
+  ],
+  "author": "JorgeDev",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}

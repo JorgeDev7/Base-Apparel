@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/output.css">
+
+</head>
+
+<body>
+
+  <div class="md:flex">
+    <div class="md:bg-hero-bg bg-cover w-screen h-screen">
+      <header class="container mx-auto px-5 md:px-16 flex items-center py-8">
+        <img class="w-32" src="./dist/images/logo.svg" alt="logo base apparel" loading="lazy">
+      </header>
+
+      <div class="bg-hero-img-mobile h-64 w-full bg-cover md:hidden"></div>
+
+      <div class="md:flex bg-gradient-to-b from-gradient-white to-gradient-white-2 md:bg-none">
+        <div class="container mx-auto px-5 md:px-16">
+          <h1
+            class="font-josefin uppercase text-5xl lg:text-7xl md:w-60 mx-auto md:mx-0 text-center md:text-start tracking-large pt-16 md:pt-40 pb-5 font-semibold text-dark-grayish-red">
+            <span class="font-light text-desaturated-red">We're</span> coming
+            soon
+          </h1>
+
+          <p class="text-desaturated-red text-center md:text-start text-base pb-10 md:pr-20">Hello fellow shoppers!
+            We're
+            currently
+            building
+            our
+            new
+            fashion
+            store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+          <form class="flex items-start pb-10">
+            <div class="w-full lg:w-96 relative">
+              <input
+                class="w-full lg:w-full bg-transparent border border-desaturated-red text-dark-grayish-red placeholder:text-desaturated-red placeholder:text-sm px-5 py-3 md:py-3 rounded-3xl md:rounded-full focus-visible:outline-0"
+                type="email" name="email" id="email" placeholder="Email Address">
+              <img src="./dist/images/icon-error.svg" alt="icon-error" loading="lazy"
+                class="absolute top-3 right-20 hidden" id="img-error">
+            </div>
+            <button
+              class="bg-gradient-to-br from-gradient-red to-gradient-red-2 hover:bg-gradient-to-r hover:from-red-100 hover:to-red-200 py-3.5 md:py-4 px-7 md:px-10 rounded-3xl shadow-lg shadow-desaturated-red hover:shadow-red-300 transition-all -ml-16 z-50"
+              type="submit">
+              <img src="./dist/images/icon-arrow.svg" alt="icon-arrow" loading="lazy">
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:block bg-hero-img-desktop h-screen w-full bg-cover"></div>
+  </div>
+  <script src="./src/js/index.js" defer></script>
+</body>
+
+</html>
